@@ -4,6 +4,8 @@ list = [1, 22, 3, 44, 553, 3, 33, 22, 63, 66, 23, 224, 6]
 
 sum_nechet = 0
 for i in range(len(list)):
-    if i % 2 == 0:
+    if i % 2 != 0:
         sum_nechet += list[i]
 print(sum_nechet)
+
+print(-1**2)
