@@ -6,7 +6,7 @@ pair_list = []
 if len(some_list) % 2 == 0:                  # Вычисление середины длины созданного списка
     len_half_some_list = len(some_list) / 2
 else:
-    len_half_some_list = int(len(some_list) / 2 + 1)
+    len_half_some_list = len(some_list) // 2 + 1
 
 for i in range(len_half_some_list):
     num = some_list[i] * some_list[-i - 1]
